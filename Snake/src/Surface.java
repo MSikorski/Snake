@@ -7,6 +7,10 @@ import java.awt.geom.Rectangle2D;
 import javax.swing.JPanel;
 
 public class Surface extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private static final int xmax = 600;
 	private static final int ymax = 600;
 	Snake snake;
