@@ -43,8 +43,6 @@ public class Frame extends JFrame implements KeyListener {
 	public void setMenu() {
 		menu.setPreferredSize(new Dimension(100, 600));
 		menu.add(new JLabel("Spacja start/stop"));
-		menu.add(new JLabel("win = wiadro"));
-		// menu.setLayout(new GridLayout(5, 1));
 	}
 
 	@Override
